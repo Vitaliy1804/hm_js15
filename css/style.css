@@ -1,0 +1,46 @@
+body{
+	background-color:#FFF;
+}
+#container{
+	background:#EAEAE0;
+	width:300px;
+	height: 300px;
+	border:1px solid #666;
+	margin:50px auto;
+	padding:5px;
+	border-radius: 50%;
+	overflow:hidden;
+}
+
+#output{
+	background:#CCC;
+	width:150px;
+	height:40px;
+	margin:80px auto 40px;
+	font-size:32px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	color:black;
+	border:1px solid #333;
+	font-weight:bold;
+}
+#controls{
+	width:150;
+	margin:15px auto;
+}
+
+.button{
+	display: inline-block;
+	/*justify-content: space-around;*/
+	height: 70px;
+	width:70px;
+	color: white;
+	font-size: 20px; 
+	margin-left: 50px;
+	border-radius: 50%; 
+	background:grey;
+	outline: none;
+}
+.button:hover{
+	background:darkgrey;
+}
